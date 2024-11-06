@@ -23,3 +23,10 @@ This project comes with a few scripts to be aware of:
 6. `npx check:watch` - same as check, but watches
 7. `npx lint` - checks with prettier and eslint for syntax formatting and errors
 8. `npx format` - uses prettier to run the formatter, this will update files
+
+# Shadcn components
+
+Shadcn components can be found at: https://www.shadcn-svelte.com/docs/components
+
+Components can be added with: `npx shadcn-svelte@latest add <component>`
+
