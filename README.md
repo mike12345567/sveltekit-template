@@ -29,4 +29,3 @@ This project comes with a few scripts to be aware of:
 Shadcn components can be found at: https://www.shadcn-svelte.com/docs/components
 
 Components can be added with: `npx shadcn-svelte@latest add <component>`
-
