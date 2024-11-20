@@ -10,6 +10,7 @@ This project includes my preferred setup for building a Sveltekit project, this 
 6. lucide-svelte - icon library
 7. mode-watcher - used for dark/light mode switching
 8. svelte-sonner - used to create toasts throughout the application
+9. Prisma + Postgres - If storage is needed this comes with scripts to run a local Postgres container and setup prisma to use it
 
 # Usage
 
