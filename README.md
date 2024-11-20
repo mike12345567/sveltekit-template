@@ -12,6 +12,8 @@ This project includes my preferred setup for building a Sveltekit project, this 
 8. svelte-sonner - used to create toasts throughout the application
 9. Prisma + Postgres - If storage is needed this comes with scripts to run a local Postgres container and setup prisma to use it
 
+By default this does not setup the database connections, if you need these then please update the [hooks.server.ts](https://github.com/mike12345567/sveltekit-template/blob/main/src/hooks.server.ts) to configure Prisma (un-comment lines). You can also update the `yarn dev` script to run `yarn db` before startup to make sure the local DB is configured.
+
 # Usage
 
 This project comes with a few scripts to be aware of:
